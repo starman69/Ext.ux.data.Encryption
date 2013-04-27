@@ -1,8 +1,8 @@
-Ext.ux.data.Encryption
+### Ext.ux.data.Encryption
 
-Ext.ux.data.proxy.EncryptedLocalStorage
+### Ext.ux.data.proxy.EncryptedLocalStorage
 
-Example of an ExtJS localStorage data proxy that has encryption capabilities
+Example of an ExtJS localStorage data proxy that has encryption capabilities using AES and SHA3
 
 
 ExtJS 4.2 Notes MVC Example:
