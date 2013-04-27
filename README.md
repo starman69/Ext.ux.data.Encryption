@@ -4,7 +4,8 @@ Ext.ux.data.proxy.EncryptedLocalStorage
 
 Example of an ExtJS localStorage data proxy that has encryption capabilities
 
-Notes Example:
+
+ExtJS 4.2 Notes MVC Example:
 
     Copy ExtJS 4.2.0 to public/lib/ext-4.2.0 or update index.html to point to CDN version.
 
@@ -12,6 +13,7 @@ Notes Example:
 
     Run in shell:
         npm install
+        node server
 
     Run in browser:
         http://localhost:8080
