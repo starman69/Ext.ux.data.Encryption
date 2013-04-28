@@ -1,3 +1,6 @@
+/**
+ * Login Controller
+ */
 Ext.define('Fob.controller.Login', {
     extend: 'Ext.app.Controller',
 
@@ -18,7 +21,7 @@ Ext.define('Fob.controller.Login', {
     init: function () {
         var me = this;
 
-        this.control({
+        me.control({
             'loginwindow textfield#passwd': {
                 render: me.onPasswordFieldRender,
                 specialkey: me.onPasswordFieldSpecialkey

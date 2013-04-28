@@ -1,3 +1,6 @@
+/**
+ * Notes Panel with Grid
+ */
 Ext.define('Fob.view.Notes', {
     extend: 'Ext.panel.Panel',
     alias: 'widget.notespanel',

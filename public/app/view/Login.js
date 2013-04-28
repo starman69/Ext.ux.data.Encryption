@@ -1,3 +1,6 @@
+/**
+ * Login Window
+ */
 Ext.define('Fob.view.Login', {
     extend: 'Ext.window.Window',
     alias: 'widget.loginwindow',

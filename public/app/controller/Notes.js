@@ -1,3 +1,6 @@
+/**
+ * Notes Controller
+ */
 Ext.define('Fob.controller.Notes', {
     extend: 'Ext.app.Controller',
     models: ['Note'],
