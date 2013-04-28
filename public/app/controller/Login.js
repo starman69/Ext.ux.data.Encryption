@@ -54,8 +54,6 @@ Ext.define('Fob.controller.Login', {
         // it will get salted and hashed, stored in private var
         var api = Ext.ux.data.Encryption.api;
         api.setToken(values['password']);
-        // set the prototype api, all proxies will use same token
-        Ext.ux.data.proxy.EncryptedLocalStorage.api = api;
 
         // NOTE: auth lookup to localStorage
         var auth = window.localStorage.getItem('auth');
@@ -77,10 +75,13 @@ Ext.define('Fob.controller.Login', {
             Ext.Msg.alert('User Message', 'Welcome New User!');
         }
 
+        // set the prototype api, all proxies will use same token
+        Ext.ux.data.proxy.EncryptedLocalStorage.api = api;
+
         // close this window
         login.close();
 
-        // display our home panel
+        // display our notes panel
         viewport.removeAll();
         viewport.add({
             xtype: 'notespanel'

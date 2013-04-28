@@ -7,6 +7,7 @@ Ext.define('Fob.view.Login', {
     layout: 'fit',
     modal: true,
     resizable: false,
+    closable: false,
 
     initComponent: function () {
         var me = this;
