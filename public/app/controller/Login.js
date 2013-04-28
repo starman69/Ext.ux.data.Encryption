@@ -72,8 +72,8 @@ Ext.define('Fob.controller.Login', {
                 });
                 return; // bail out
             }
-
-        }   else {
+        }
+        else {
             window.localStorage.setItem('auth', api.encrypt('foobar'));
             Ext.Msg.alert('User Message', 'Welcome New User!');
         }
