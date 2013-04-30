@@ -2,7 +2,7 @@ Ext.Loader.setConfig({
     enabled: true,
     paths: {
         'Fob': 'app',
-        'Ext.ux': '../../src'
+        'Ext.ux': 'src'
     }
 });
 
