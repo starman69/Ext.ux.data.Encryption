@@ -2,7 +2,7 @@
 
 ### Ext.ux.data.proxy.EncryptedLocalStorage
 
-This demo showcases ExtJS using client-side JavaScript AES encryption and SHA3 hashes.
+This demo showcases an ExtJS MVC application using client-side JavaScript AES encryption and SHA3 hashes.
 
 The Encryption class stores a SHA3 hash in a private in-memory var.
 
