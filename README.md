@@ -11,6 +11,6 @@ The EncryptedLocalStorage proxy class has an api we augment in from the Encrypti
 The demo stores an encrypted string to localStorage for password comparison during login.
 The demo uses the proxy extension to store encrypted data to localStorage.
 
-[Overview](http://davepatten.net/examples/Ext.ux.data.Encryption)
+[Overview](http://www.pattens.org/examples/Ext.ux.data.Encryption)
 
-[Live Demo](http://davepatten.net/examples/Ext.ux.data.Encryption/demo)
+[Live Demo](http://www.pattens.org/examples/Ext.ux.data.Encryption/demo)
