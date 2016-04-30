@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo Overview</title>
+</head>
+<body>
+
+This demo showcases ExtJS using client-side JavaScript AES encryption and SHA3 hashes.<br>
+<br>
+<a target="_blank" href="demo/">Live Demo</a><br>
+<br>
+The Encryption class stores a SHA3 hash in a private in-memory var.<br>
+The EncryptedLocalStorage proxy class has an api we augment in from the Encryption class.<br>
+<br>
+The demo stores an encrypted string to localStorage for password comparison during login.<br>
+The demo uses the proxy extension to store encrypted data to localStorage.<br>
+<br>
+
+Enter a password, this string will be salted and SHA3 hashed.<br>
+The password used is garbage collected and not stored, the salt is also not stored with the data.<br>
+<a target="_blank" href="images/screen_login.png"><img src="images/screen_login.png" width="480" alt=""></a><br>
+<br>
+Demo will save the encrypted string 'foobar' with your key to localStorage for authorization next time<br>
+<a target="_blank" href="images/screen_newuser.png"><img src="images/screen_newuser.png" width="480" alt=""></a><br>
+<br>
+EncryptedLocalStorage proxy class now automatically encrypts/decrypts to/from localStorage.<br>
+In Chrome, load Dev Tools and view Resources tab, Local Storage.<br>
+<a target="_blank" href="images/screen_gridview.png"><img src="images/screen_gridview.png" width="480" alt=""></a><br>
+<br>
+Reload the page, now with an 'auth' item found in localStorage, it will encrypt and compare.<br>
+<a target="_blank" href="images/screen_wrongpassword.png"><img src="images/screen_wrongpassword.png" width="480" alt=""></a><br>
+<br>
+Only when you provide the correct password from before can you continue, setting the proxy and then data can be decrypted and viewable in the grid.<br>
+<a target="_blank" href="images/screen_welcomeback.png"><img src="images/screen_welcomeback.png" width="480" alt=""></a><br>
+</body>
+</html>
